@@ -11,10 +11,12 @@ print(mylist)
 # ------------------------------------------------------------------------------
 
 def try_to_modify_charchain(input_charchain):
-    input_charchain + 'lol'
+    input_charchain = input_charchain + 'lol'
+    return input_charchain
 
 mycharchain = 'ABCD'
-try_to_modify_charchain(mycharchain)
+foo = try_to_modify_charchain(mycharchain)
 print(mycharchain)
+print(foo)
 
 # CONCLUSION 2: need for a return in the function
