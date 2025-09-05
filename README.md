@@ -1,3 +1,12 @@
+
+Preliminary test
+----------------
+### Question 1
+From an input list of 4 elements (A, B, C, D), generate the corresponding "multiset" (6 elements: AB, AC, AD, BC, BD, CD).  
+
+### Question 2
+From an input text format file `book.txt`, generate the ranking list of the most frequent words.
+
 Exercise 1
 ----------
 Write a Python script to list all possible DNA sequences of length n.  
